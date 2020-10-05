@@ -10,14 +10,8 @@ interface OrderBuilderInterface
      *
      * @param array $params
      */
-    public function addOrderParams(array $params): void;
+    public function add11OrderParams(array $params): void;
 
-    /**
-     * Change Order fields and purchase object
-     *
-     * @param array $params
-     */
-    public function addOrderPurchase(array $params): void;
 
     /**
      * @param array $params
